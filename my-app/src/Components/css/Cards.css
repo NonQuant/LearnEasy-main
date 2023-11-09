@@ -5,7 +5,12 @@
 .slick-prev:before, .slick-next:before {
     font-size: 4rem;
     position: relative;
-    right: 20px;
+    color: black!important;
+    width: 100%;
+}
+
+.slick-prev:before {
+    left: -30px;
 }
 
 .card{
@@ -23,6 +28,7 @@
     color: #fff;
     background-size: cover;
     text-align: center;
+    z-index: -1;
 }
 .card h2{
     font-size: 22px;
@@ -32,4 +38,3 @@
     font-size: 18px;
     font-weight: 600;
 }
-

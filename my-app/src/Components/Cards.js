@@ -52,7 +52,6 @@ export default class Cards extends Component {
       className: "center",
       centerMode: true,
       infinite: true,
-      centerPadding: "0px",
       dots: true,
       slidesToShow: 3,
       speed: 400,
