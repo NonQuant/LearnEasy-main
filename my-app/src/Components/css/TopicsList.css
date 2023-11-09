@@ -1,0 +1,46 @@
+
+.topics-list__container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #0F204C;
+    background-color: #EAEAEA;
+    overflow-y: auto;
+}
+.topic-list__element{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 60px;
+}
+.topic-list__element:hover{
+    background-color: #fff;
+    transition: all 100ms;
+}
+.topic-list__element__active{
+    background: #fff;
+    
+}
+.topic-list__topic{
+    width: 70%;
+}
+.topic-list__indicator{
+    border: rgb(176, 176, 176) solid 1px;
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 30px;
+}
+
+a.topic-list__element:focus,
+a.topic-list__element:active,
+a.topic-list__element:visited {
+    outline: none; color: #0F204C;
+}

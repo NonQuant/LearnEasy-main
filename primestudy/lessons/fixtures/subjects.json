@@ -1,0 +1,1 @@
+[{"model": "lessons.subject", "pk": 1, "fields": {"slug": "matematika", "subject_type": "Математика"}}, {"model": "lessons.subject", "pk": 2, "fields": {"slug": "fizika", "subject_type": "Физика"}}, {"model": "lessons.subject", "pk": 3, "fields": {"slug": "informatika", "subject_type": "Информатика"}}]

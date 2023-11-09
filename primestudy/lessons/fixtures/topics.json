@@ -1,0 +1,110 @@
+[
+    {
+        "model": "lessons.topic",
+        "pk": 1,
+        "fields": {
+            "slug": "kvadrat-raznosti",
+            "topic": "Квадрат разности",
+            "subject_grade": 19
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 2,
+        "fields": {
+            "slug": "summa-kubov",
+            "topic": "Сумма кубов",
+            "subject_grade": 19
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 3,
+        "fields": {
+            "slug": "ergonomika",
+            "topic": "Эргономика",
+            "subject_grade": 32
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 4,
+        "fields": {
+            "slug": "sila-arkhimeda",
+            "topic": "Сила Архимеда",
+            "subject_grade": 25
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 5,
+        "fields": {
+            "slug": "teplovoe-dvizhenie",
+            "topic": "Тепловое движение",
+            "subject_grade": 26
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 6,
+        "fields": {
+            "slug": "zvukovye-volny",
+            "topic": "Звуковые волны",
+            "subject_grade": 27
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 7,
+        "fields": {
+            "slug": "tsifrovye-nositeli-informatsii",
+            "topic": "Цифровые носители информаций",
+            "subject_grade": 31
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 8,
+        "fields": {
+            "slug": "reshenie-lineinykh-uravnenii",
+            "topic": "Решение линейных уравнений",
+            "subject_grade": 19
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 9,
+        "fields": {
+            "slug": "reshenie-kvadratnykh-uravnenii",
+            "topic": "Решение квадратных уравнений",
+            "subject_grade": 20
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 10,
+        "fields": {
+            "slug": "summa-chlenov-beskonechno-ubyvaiushchei-progressii",
+            "topic": "Сумма членов бесконечно убывающей прогрессии",
+            "subject_grade": 21
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 11,
+        "fields": {
+            "slug": "avtorskie-prava-i-otkrytye-standarty",
+            "topic": "Авторские права и открытые стандарты",
+            "subject_grade": 33
+        }
+    },
+    {
+        "model": "lessons.topic",
+        "pk": 12,
+        "fields": {
+            "slug": "okruzhnost-i-krug",
+            "topic": "Окружность и круг",
+            "subject_grade": 19
+        }
+    }
+]

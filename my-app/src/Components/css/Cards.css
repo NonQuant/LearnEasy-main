@@ -1,0 +1,35 @@
+.slick-track{
+    height: 360px;
+    overflow-y: hidden;
+}
+.slick-prev:before, .slick-next:before {
+    font-size: 4rem;
+    position: relative;
+    right: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-width: 300px;
+    height: 350px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 20px 15px;
+    background: #3C39E0;
+    color: #fff;
+    background-size: cover;
+    text-align: center;
+}
+.card h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+.card h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+

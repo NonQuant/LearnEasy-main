@@ -1,0 +1,9 @@
+.search-result{
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    color: #081128;
+    font-weight: 600;
+}
+.search-result:hover{
+    background-color: rgb(239, 239, 239);
+}

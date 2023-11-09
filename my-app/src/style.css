@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  height: 100%;
+  font-family: "Nunito";
+}
+
+.home__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  background-image: url(img/Main.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.home__container {
+  width: 1220px;
+}
+
+header.home__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 13vh;
+}
+
+.home__logo {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 55px;
+  color: #3C39E0;
+  cursor: pointer;
+}
+
+.home__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 70px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 55px;
+  color: #0F204C;
+  cursor: pointer;
+}
+
+.home__about:hover {
+  color: #3C39E0;
+}
+
+.home__lessons:hover {
+  color: #3C39E0;
+}
+
+.home__team:hover {
+  color: #3C39E0;
+}
+
+.home__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 131px;
+  position: relative;
+  padding-top: 60px;
+}
+
+.home__text__blue {
+  color: #3C39E0;
+}
+
+.home__text__after {
+  color: #fff;
+  padding-left: 20px;
+}
+
+.home__text__dropped {
+  color: #fff;
+  position: absolute;
+  bottom: -70px;
+  right: 439px;
+}
+
+.home__main__button {
+  margin: 30px 0 0 100px;
+  width: 25%;
+}
+
+.home__button {
+  background-color: #3C39E0;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.home__button:active {
+  -webkit-box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+}
+.home__button:hover {
+  background-color: #0F204C;
+  -webkit-transition: background-color 200ms, -webkit-transform 70ms, -webkit-box-shadow 70ms;
+  transition: background-color 200ms, -webkit-transform 70ms, -webkit-box-shadow 70ms;
+  transition: background-color 200ms, transform 70ms, box-shadow 70ms;
+  transition: background-color 200ms, transform 70ms, box-shadow 70ms, -webkit-transform 70ms, -webkit-box-shadow 70ms;
+}

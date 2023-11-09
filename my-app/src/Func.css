@@ -1,0 +1,180 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}    
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
+
+
+body{
+    height: 100%;
+    font-family: 'Nunito';
+    overflow-x: hidden;
+}
+
+.func__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    max-width: 100%;
+
+}
+
+.func__container {
+    width: 1220px;
+}
+
+.func__header__container::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -100vw;
+    z-index: -1;
+    background-color: #FDC51A;
+}
+.func__header__container__colored::after{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 200vw;
+    left: -100vw;
+    z-index: -1;
+    background-color: #E7CE1D;
+}
+
+
+.func__header__container {
+    background-color: #FDC51A;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.func__header__container__colored {
+    background-color: #E7CE1D;
+    position: relative; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.func__logo {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #3C39E0;
+    cursor: pointer;
+}
+.func__logo__colored {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #0052AD;
+    cursor: pointer;
+}
+.func__menu {
+    display: flex;
+    gap:70px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;  
+    cursor: pointer;
+}
+.func__menu__colored {
+    display: flex;
+    gap:70px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 55px;  
+    cursor: pointer;
+}
+.func__about {
+    color: #0F204C;
+}
+.func__about__colored {
+    color: #0F204C;
+}
+.func__about:hover{
+    color: #3C39E0;
+}
+.func__about__colored:hover{
+    color: #0052AD;
+}
+.func__lessons {
+    color: #3C39E0;
+}
+.func__lessons__colored {
+    color: #0052AD;
+}
+.func__team{
+    color: #0F204C;
+}
+.func__team__colored{
+    color: #0F204C;
+}
+.func__team:hover{
+    color: #3C39E0;
+}
+.func__team__colored:hover{
+    color: #0052AD;
+}
+.func__main__container{
+    display: flex;
+    flex: 1 1 auto;
+    height:calc(100vh - 100px);
+    width: 100%;
+    
+}
+.func__main__topics-list{
+    width: 20%;
+}
+.func__main__fullscreen{
+    display: flex;
+    flex: 1 1 auto;
+    width: 100%;
+    gap: 100px;
+    padding: 0 80px;
+    position: relative;
+}
+.func__main__fullscreen__button{
+    background: none;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+.func__main__fullscreen__button__icon{
+    position: absolute;
+    z-index: 4;
+    top:auto;
+    left: auto;
+}
+.func__main__content{
+    position: relative;
+    width: 80%;
+}
+.hidden{
+    display: none;
+}
+.func__main__functions{
+    position: relative;
+}

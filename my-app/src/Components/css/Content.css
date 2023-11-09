@@ -1,0 +1,26 @@
+.content__container{
+    height: 100%;
+    background: #EAEAEA;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 30px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.content__topic div {
+    padding-bottom: 20px;
+}
+.content__topic img {
+    padding-bottom: 20px;
+}
+.content__topic li {
+    padding-bottom: 10px;
+}
+.content__topic ol {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+.content__topic ul {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
