@@ -133,15 +133,15 @@ function Func() {
           className="func__main__fullscreen"
           style={
             fullScreen
-              ? { backgroundColor: "white" }
-              : { backgroundColor: "white" }
+              ? { backgroundColor: "#eaeaea" }
+              : { backgroundColor: "#eaeaea" }
           }
         >
           <button
             className="func__main__fullscreen__button"
             id="full_screen"
             onClick={() => toggleFullscreen()}
-            style={fullScreen ? { left: "5px" } : { left: "83px" }}
+            style={{left: "85px" }}
           >
             {fullScreen ? (
               <AiOutlineFullscreenExit className="func__main__fullscreen__button__icon" />

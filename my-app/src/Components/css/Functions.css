@@ -11,6 +11,7 @@ input[type=number] {
 }
 
 .functions__container {
+  box-shadow: 10px 5px 5px rgb(173, 173, 173);
   margin-left: 50px;
   font-size: 3.5rem;
   background: #eaeaea;
