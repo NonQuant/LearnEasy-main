@@ -83,7 +83,12 @@ export const Timer = ({colored, setColored}) => {
             <button
             className={colored ? "functions__regulate__btn__colored" : "functions__regulate__btn"}
             onClick={() => {
-              setSeconds((prev) => prev - 300)
+              setSeconds((prev) => {
+                if ((prev - 300) < 0) {
+                  return prev;
+                }
+                return prev - 300;
+              })
             }}>-</button>
             }
             <div className="functions__timer__counter__timer">{formatTime(seconds)}</div>
