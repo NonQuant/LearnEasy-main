@@ -97,6 +97,10 @@ body {
   width: 1220px;
 }
 
+div#webpack-dev-server-client-overlay-div, iframe {
+  display: none;
+}
+
 header.home__container {
   display: -webkit-box;
   display: -ms-flexbox;
